@@ -7,7 +7,31 @@
     <title>Háromszög számítása</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container-fluid m-5">
+
+      <h2 class="header">Háromszög</h2>
+
+      <div>
+        <label class="form-label" for="aOldal">A:</label>
+        <input type="number" class="form-control w-25" min="0" id="aOldal">
+      </div>
+
+      <div>
+        <label class="form-label" for="bOldal">B:</label>
+        <input type="number" class="form-control w-25" min="0" id="bOldal">
+      </div>
+
+      <div>
+        <label class="form-label" for="cOldal">C:</label>
+        <input type="number" class="form-control w-25" min="0" id="cOldal">
+      </div>
+
+      <br>
+      <button id="szamit" class="btn btn-warning">Számít</button>
+
+      <p id="eredmeny"></p>
+
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
